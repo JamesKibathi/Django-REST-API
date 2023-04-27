@@ -1,3 +1,4 @@
+** API to get information about drinks **
 1. Create and activate the virtual environment
 2. Install dependencies
  - Django - pip install Django
@@ -5,3 +6,10 @@
 3. Start project - django-admin startproject drinks . 
 4. Run server - python3 manage.py runserver
 5. Run migrations - python3 manage.py migrate
+6. Create admin - python3 manage.py createsuperuser
+7. Create a model - Write all models to a file "models.py"
+ - Run model specific migration - python3 manage.py makemigrations drinks
+ (Gives an error: No installed app with label 'drinks')
+ ** Go to settings and under INSTALLED_APPS, add 'drinks'
+ - Apply migration to the DB - python3 manage.py migrate
+ - Create 'admin.py' file
