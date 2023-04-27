@@ -1,0 +1,7 @@
+1. Create and activate the virtual environment
+2. Install dependencies
+ - Django - pip install Django
+ - rest dependencies - pip install djangorestframework
+3. Start project - django-admin startproject drinks . 
+4. Run server - python3 manage.py runserver
+5. Run migrations - python3 manage.py migrate
