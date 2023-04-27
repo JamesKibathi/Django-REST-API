@@ -13,3 +13,5 @@
  ** Go to settings and under INSTALLED_APPS, add 'drinks'
  - Apply migration to the DB - python3 manage.py migrate
  - Create 'admin.py' file
+8. Add rest framework in settings - under INSTALLED_APPS, add 'rest_framework'
+9. Create serializer - add 'serializers.py' on drinks directory
