@@ -15,3 +15,5 @@
  - Create 'admin.py' file
 8. Add rest framework in settings - under INSTALLED_APPS, add 'rest_framework'
 9. Create serializer - add 'serializers.py' on drinks directory
+10. Create endpoints - views.py
+11. Add the URL that will hit that view endpoint
